@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 20px 160px;
+    background: white;
+    color: black;
+    height: 100vh;
+    overflow: hidden;
+    font-family: "Noto Sans", sans-serif;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    background: #090909;
+    width: 105%;
+    height: 85%;
+    position: absolute;
+    top: 0;
+    left: 265px;
+    transform: rotate(-65deg);
+}
+
+
+
+.logoo {
+    width: 125px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -15px;
+}
+
+h4 {
+    position: absolute;
+    bottom: 260px;
+    left: 5px;
+    font-size: 20px;
+    margin: 0;
+}
+
+h5 {
+    position: absolute;
+    bottom: 245px;
+    left: 5px;
+    font-size: 13px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 80px;
+    margin-top: 50px;
+}
+
+p {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+button {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    transition: 0.5s;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+.tn {
+    width: 770px;
+    transform: rotate(-15deg);
+    margin-top: -70px;
+    filter: drop-shadow(15px 15px 15px #757575);
+    transition: 0.5s ease;
+    /* Transição para suavidade */
+}
+
+.troca-efeito {
+    opacity: 0;
+    transform: rotate(-25deg) translateY(-30px);
+}
+
+
+.caixa-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75%;
+    position: relative;
+    z-index: 1;
+}
+
+.caixa-texto {
+    max-width: 500px;
+}
+
+.caixa-botao {
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+
+}
+
+.caixa-botao div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid black;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+}
+
+
+.caixa-botao div:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border: 2px solid #333;
+}
+
+
+
+
+
+.botoes {
+    width: 80px;
+    height: 80px;
+}
+
+.azul-caro {
+    background: #c0dadf;
+}
+
+.verde {
+    background: green;
+}
+
+.azul {
+    background: #7198a6;
+}
+
+.bege {
+    background: #9e8a68;
+}
+
+.cinza {
+    background: #ded2ca;
+}
+
+.colorido {
+    background: #e28257;
+}
+
+.preto-verde {
+    background: black;
+}

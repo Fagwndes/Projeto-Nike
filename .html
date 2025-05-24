@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nike</title>
+    <link rel="shortcut icon" href="./img/logo-nike-7.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="logo">
+        <img class="logoo" src="./img/logo.Nike.svg" alt="Logo da Nike" />
+    </div>
+
+    <main class="caixa-principal">
+        <div class="caixa-texto">
+            <h4>R$ 1234,99 no Pix
+            </h4>
+            <h5>ou R$ 1299,99 em até 10x sem juros</h5>
+            <h1>Nike Air Max Plus</h1>
+            <p>
+                Se você busca um tênis que une design marcante, tecnologia de ponta e conforto absoluto, o Nike Air Max
+                Plus é a
+                escolha perfeita.
+                <br><br>
+                Com seu visual futurista e ousado, ele é ideal para quem quer se destacar na multidão. A silhueta
+                icônica, as
+                linhas onduladas e a entressola robusta trazem aquele toque urbano que combina com qualquer look — do
+                streetwear
+                ao casual sofisticado.
+            </p>
+            <button>Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="caixa-img">
+            <img class="tn" src="./img/TN-Azul-Caro.png" alt="Tênis Nike Air Max Plus azul" />
+
+        </div>
+    </main>
+
+    <div class="caixa-botao">
+        <div onclick="mudarVisual('./img/TN-Azul-Caro.png')" class="azul-caro"></div>
+        <div onclick="mudarVisual('./img/TN-Azul.png')" class="azul"></div>
+        <div onclick="mudarVisual('./img/TN-Bege.png')" class="bege"></div>
+        <div onclick="mudarVisual('./img/TN-Cinza.png')" class="cinza"></div>
+        <div onclick="mudarVisual('./img/TN-Colorido.png')" class="colorido"></div>
+        <div onclick="mudarVisual('./img/TN-Preto-Verde.png')" class="preto-verde"></div>
+        <div onclick="mudarVisual('./img/TN-Verde.png')" class="verde"></div>
+    </div>
+
+</body>
+<script src="scripts.js"></script>
+
+</html>
