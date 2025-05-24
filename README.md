@@ -11,7 +11,7 @@
 
 ## 🎥 Preview
 
-![Preview do Projeto Nike](https://github.com/user-attachments/assets/9fe0fb58-f8c9-4fa6-94ea-aedaa316d869)
+<img src="https://github.com/user-attachments/assets/9fe0fb58-f8c9-4fa6-94ea-aedaa316d869"/>
 
 ---
 ## 💡 Objetivo
